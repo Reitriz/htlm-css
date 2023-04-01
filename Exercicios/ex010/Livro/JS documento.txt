@@ -1,0 +1,27 @@
+Operadores aritiméticos : ** * / % + -
+
+Operadores relacionais : = == != < > 
+
+Operadores lógicos : "!, falso" "&&, os dois lados verdadeiros" "||, qualquer lado verdadeiro"
+
+Ordem de precedência : aritiméticos -> relacionais -> lógicos
+
+Operador ternário : teste ? verdadeiro : falso
+
+Tipos primitivos : "Number, número" "String, letra" "Bolean, verdadeiro ou falso"
+ 
+Tags : <html></html><head></head><body></body><style></style><h1></h1><div></div><input></input><label></label><p></p><img></img><script></script><link></link>
+
+Operadores de repetição : "while, enquanto" "do, faça, while, enquanto" "for" "switch"
+
+Operadores de escolha : "if, se" "else if, se não" "else, se nada"
+
+Style : "background-color, cor de fundo" "color, cor do texto" "font, fonte do texto" "margin-top, margem de cima" "width, largura" "height, altura" "text-align, alinhamento do texto" "line-height, altura do texto"
+
+Funções : "onclick, quando clicar" "mouseenter, mouse entrou" "mouseout, mouse saiu" 
+
+Seletores : "querySelector(), escolher por id '#' ou classe '.'" "getElementBy/id/name/tagname"
+
+Alterador de texto : "Number(), para alterar para número" "String(), para alterar para letra"
+
+

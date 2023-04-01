@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Android';
+    src: url('fontes/idroid.otf.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #84E1AD;
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+}
+header{
+    background-image: linear-gradient(0deg,#195835,#75cf9c); 
+
+}
+#texto{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+#titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    color: #FFFFFF;
+}
+nav{
+    background-color: #195835;
+}
+nav > a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+}
+nav > a:hover{
+    background-image: linear-gradient(180deg, rgba(0, 194, 0, 0.671), green);
+}
+main{
+    background-color: #FFFFFF;
+}   
+h1, h2{
+    font-family: 'Android';
+    color: #195835;
+}
+#historia > p, #historia > article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 30px;
+}
+#imagem-android{
+    padding: 0px 0px 0px 180px;
+    width: 50%;
+}
+#imagem-irina{
+    width: 100%;
+}
+#robos{
+    width: 100%;
+}
+h2{
+    background-image: linear-gradient(45deg, rgba(0, 165, 0, 0.377), white);
+}
+span{
+    color: #ff0000;
+}
+a{
+    color: #1acf6c;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgba(23, 224, 23, 0.623);
+}
+#extra{
+    background-image: linear-gradient(180deg, rgba(0, 128, 0, 0.63), rgba(2, 255, 2, 0.568));
+    border-radius: 10px;
+}
+#extra > span{
+    color: #FFFFFF;
+}
+#extra > article > p{
+    text-indent: 20px;
+    color: black;
+}
+footer{
+    background-color: rgb(27, 136, 0);
+    color: white;
+    text-align: center;
+}
