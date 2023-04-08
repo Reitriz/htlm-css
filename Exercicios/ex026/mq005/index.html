@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Media Queries</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <span id="home" class="material-symbols-outlined" onclick="clicou()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Option</a></li>
+                <li><a href="#">Option</a></li>
+                <li><a href="#">Option</a></li>
+                <li><a href="#">Option</a></li>
+                <li><a href="#">Option</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat aut quas excepturi nostrum, quibusdam necessitatibus neque laborum optio eius, unde voluptatem laudantium commodi dolor maiores odit. Repellendus, provident enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis dolores quibusdam minus minima molestiae, nesciunt odit ex veritatis quis cumque ducimus quas labore natus sint libero eius itaque unde. Dolor.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo atque non dignissimos eos ab sapiente iure officiis ipsum voluptatibus ex minima reprehenderit sequi cupiditate deleniti sunt, repellendus dolore odit provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis rem odit, officia nesciunt est qui laborum libero. Eum nulla blanditiis obcaecati! Labore natus fugit ipsum optio reprehenderit cumque libero?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, exercitationem. Nostrum inventore dignissimos facere, temporibus quibusdam a autem impedit porro iste cumque, ea iure obcaecati id dolor delectus veritatis ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sint. Asperiores debitis exercitationem deserunt est unde optio a accusantium? Ipsam porro tempora doloribus suscipit dolore nostrum eaque quo ad omnis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, incidunt corrupti. Maxime perferendis pariatur itaque voluptate optio corrupti laboriosam exercitationem ipsam saepe ut enim accusamus illo modi officiis, harum architecto? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto ad impedit quas! Ad, enim, a obcaecati id similique vel, sunt autem corrupti amet illum assumenda facilis sit natus laudantium? Quo?</p>
+        </article>
+    </main>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+        function clicou(){
+            if(menu.style.display == 'block'){
+                menu.style.display = 'none'
+            }else{
+                menu.style.display = 'block'
+            }
+                
+        }
+    </script>
+</body>
+</html>
